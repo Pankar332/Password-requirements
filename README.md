@@ -1,4 +1,8 @@
 This file contains a simple password requirement system designed in Python asking users to input a password while having password requirements 
+
+
+
+
 password = input("Enter a password:")
 if len(password) < 8:
     print("Password MUST be at least 8 characters long")
